@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 842px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:170px"></td>
+<td style="width:100px"></td>
+<td style="width:66px"></td>
+<td style="width:34px"></td>
+<td style="width:100px"></td>
+<td style="width:36px"></td>
+<td style="width:64px"></td>
+<td style="width:100px"></td>
+<td style="width:172px"></td>
+</tr>
+<tr valign="top" style="height:20px">
+<td colspan="9">
+</td>
+</tr>
+<tr valign="top" style="height:79px">
+<td colspan="3">
+</td>
+<td colspan="3" style="text-indent: 0px;  vertical-align: middle;text-align: center;">
+<span style="font-family: SansSerif; color: #000000; font-size: 20px; line-height: 1.2578125; font-weight: bold;">Data Penjualan</span></td>
+<td colspan="3">
+</td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="9">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">kd_pelanggan</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Telepon</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Tanggal</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Total</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:4px">
+<td colspan="9">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P001</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Muhamad ilham</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">083811507639</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">2/1/18 12:00 AM</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">50000</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P002</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Marco Asensio</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">808080</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">2/1/18 12:00 AM</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">1200000</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P003</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P003</span></td>
+<td style="text-indent: 0px; text-align: left;">
+</td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">2/9/18 12:00 AM</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">100000</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P004</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P004</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">88</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">2/9/18 12:00 AM</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">100000</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P005</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">P005</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">909090</span></td>
+<td colspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">2/9/18 12:00 AM</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">350000</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:337px">
+<td colspan="9">
+</td>
+</tr>
+</table>
+
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>

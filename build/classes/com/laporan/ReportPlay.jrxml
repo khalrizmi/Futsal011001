@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="65009670-bcdf-4d14-972f-7e9ad4447335">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select tbl_play.*, tbl_lapangan.nama as nama_lapangan from tbl_play inner join tbl_lapangan on tbl_play.kd_lapangan = tbl_lapangan.kd_lapangan]]>
+	</queryString>
+	<field name="kd_main" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kd_lapangan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tgl" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jam" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="aksesoris" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="lama_sewa" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_lapangan" class="java.lang.String"/>
+	<group name="kd_main">
+		<groupExpression><![CDATA[$F{kd_main}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="315" y="0" width="169" height="79" uuid="833a77e4-3d9e-4ecd-9c03-86ed824c00bf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA PLAY]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement x="85" y="0" width="70" height="20" uuid="d27e86f8-09c8-470a-97d0-0ee32a5590ee"/>
+				<text><![CDATA[Kode Main]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="155" y="0" width="100" height="20" uuid="716167f6-0943-4d25-8b60-28efc192a98d"/>
+				<text><![CDATA[Nama Team]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="255" y="0" width="100" height="20" uuid="f5c3da05-2065-4f23-ad68-2aa40f5ee099"/>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="0" width="64" height="20" uuid="ecba2756-e6c9-4010-9aa3-eabb29239890"/>
+				<text><![CDATA[Jam Sewa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="493" y="0" width="63" height="20" uuid="e39b757c-adf8-4c30-a2f7-64c436cc6f1a"/>
+				<text><![CDATA[Lama Sewa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="0" width="74" height="20" uuid="46686efb-ee56-42a3-93de-82456d5ab310"/>
+				<text><![CDATA[Lapangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="556" y="0" width="62" height="20" uuid="3e1a65ab-524a-4354-9bf1-e7b86148b0f1"/>
+				<text><![CDATA[Alat - alat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="618" y="0" width="100" height="20" uuid="270fc95a-385b-4efb-890e-a4c34947a135"/>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="85" y="0" width="70" height="20" uuid="4fbada8b-474b-4228-acac-e399a1e10e65"/>
+				<textFieldExpression><![CDATA[$F{kd_main}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="155" y="0" width="100" height="20" uuid="cfff9035-e7c3-4e43-8441-001ad38c6cf4"/>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="0" width="100" height="20" uuid="9134a4e5-e691-41a0-8184-017d4215cb1c"/>
+				<textFieldExpression><![CDATA[$F{tgl}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="74" height="20" uuid="01f90c4b-f951-4dcf-94c8-a2d28d49b7d3"/>
+				<textFieldExpression><![CDATA[$F{nama_lapangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="0" width="64" height="20" uuid="e9c80a29-aa81-4a96-93e1-0ab7a010343c"/>
+				<textFieldExpression><![CDATA[$F{jam}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="493" y="0" width="63" height="20" uuid="e89e82c1-9987-4c8a-a67d-f5aaebccf452"/>
+				<textFieldExpression><![CDATA[$F{lama_sewa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="556" y="0" width="62" height="20" uuid="ad0f2a68-f638-4dbf-8b9a-d61c694735b2"/>
+				<textFieldExpression><![CDATA[$F{aksesoris}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="618" y="0" width="100" height="20" uuid="207d5ebf-1a79-42c6-b08d-025ff91df840"/>
+				<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

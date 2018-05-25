@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="56a1a860-073f-4a0c-bf3c-94e753e35d9c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from tbl_booking inner join tbl_lapangan on tbl_booking.kd_lapangan = tbl_lapangan.kd_lapangan]]>
+	</queryString>
+	<field name="kd_booking" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kd_lapangan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_team" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="telepon" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tgl" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jam_masuk" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="lama_sewa" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="harga" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="harga_member" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kondisi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="kd_booking">
+		<groupExpression><![CDATA[$F{kd_booking}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="329" y="0" width="151" height="79" uuid="ba4a57c0-b7f4-49a6-acb2-4444e2924646"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA BOOKING]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<staticText>
+				<reportElement x="64" y="3" width="100" height="20" uuid="a01d21a6-15e6-437e-be9d-ebb6597150ea"/>
+				<text><![CDATA[Kode Booking]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="164" y="3" width="100" height="20" uuid="f7aad263-2d95-4615-8c21-def74bd17616"/>
+				<text><![CDATA[Nama Team]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="264" y="3" width="100" height="20" uuid="da200acc-a8e6-412c-9849-7eafb10b5198"/>
+				<text><![CDATA[Telepon]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="0" width="100" height="20" uuid="2c53b915-6ce0-4a03-be4b-04115f31b3c1"/>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="0" width="100" height="20" uuid="77c6b2dc-cd91-4ff1-a55e-920569cdf705"/>
+				<text><![CDATA[Lapangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="564" y="0" width="100" height="20" uuid="acb8e010-a46e-4794-b00d-40147b7dea3f"/>
+				<text><![CDATA[Jam Sewa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="664" y="0" width="100" height="20" uuid="0ab346f4-f52a-49f0-a660-cf64cb1becb2"/>
+				<text><![CDATA[Lama Sewa]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="64" y="0" width="100" height="20" uuid="b7cb9efa-8464-404b-8eb5-72cde06ce3e5"/>
+				<textFieldExpression><![CDATA[$F{kd_booking}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="0" width="100" height="20" uuid="33574929-6a89-4e71-820b-659fece04853"/>
+				<textFieldExpression><![CDATA[$F{nama_team}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="264" y="0" width="100" height="20" uuid="a1047a13-d352-4876-94b5-0f33520514bc"/>
+				<textFieldExpression><![CDATA[$F{telepon}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="364" y="0" width="100" height="20" uuid="881ac317-5dbb-4f8f-990f-2578c0fb2ca0"/>
+				<textFieldExpression><![CDATA[$F{tgl}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="464" y="0" width="100" height="20" uuid="4b54fc49-8e36-4b2c-ab55-d18c7d380841"/>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="564" y="0" width="100" height="20" uuid="7eaf9b7d-0550-4a99-8f29-638c7d69d061"/>
+				<textFieldExpression><![CDATA[$F{jam_masuk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="664" y="0" width="100" height="20" uuid="ca973d67-aa86-48fd-a7ee-c22d828837fd"/>
+				<textFieldExpression><![CDATA[$F{lama_sewa}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
